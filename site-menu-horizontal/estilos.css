@@ -1,0 +1,55 @@
+.fundo-cinza{
+    background-color: #333333;
+}
+
+.topo{
+    padding: 20px; /* margem interna*/
+    color: #d1d1d1; /*cor da fonte */
+    font-family: 'Courier New', Courier, monospace; /*estilo da fonte*/
+    text-align: center; /*alinhamento do texto*/
+    font-size: 1.2em; /*tamanho da font6e */
+}
+
+.letra-logo{
+    color: rgb(101, 184, 240);
+}
+
+.topo-fluido{
+    border-top: 1px solid #4e4e4e; /*borda superior*/
+}
+
+.menu{
+    display: flex;
+    gap: 5PX;
+}
+
+.menu li{
+    flex-grow: 1;
+    list-style: none;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+
+.menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: rgb(101, 184, 240);
+    color: #333333;
+    transition: 0,67s
+}
+
+.rodape{
+    padding: 3px; /* margem interna*/
+    color: #ffffff; /*cor da fonte */
+}
+
+.container-principal{
+width: 800px;
+height: 500px;
+margin: 0 auto;
+}
